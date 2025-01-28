@@ -1,0 +1,176 @@
+/* General Styles */
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e6f3ff;
+}
+
+.container {
+    max-width: 420px;
+    margin: 0 auto;
+    background-color: #007bff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0056b3;
+    font-size: 16px;
+}
+
+.header .location span {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.header .profile-icon {
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+/* Search Bar */
+.search-bar {
+    width: 90%;
+    margin: 10px 0;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Notice */
+.notice {
+    width: 90%;
+    background-color: #fff;
+    color: #000;
+    padding: 8px 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Vehicle Info */
+.vehicle-info {
+    width: 90%;
+    background-color: #fff;
+    color: #000;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.vehicle-details p {
+    margin-bottom: 5px;
+}
+
+.vehicle-info .remove-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Map Placeholder */
+#map {
+    width: 90%;
+    height: 200px;
+    background-color: #d9d9d9;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+/* Action Buttons */
+.action-buttons {
+    width: 90%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.action-buttons .primary-btn {
+    width: 100%;
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Utilities */
+.utilities {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.qr-section {
+    flex: 1;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.qr-placeholder {
+    background-color: #fff;
+    color: #333;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.utility-options button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+/* Floating Add Button */
+.floating-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: #007bff;
+    font-size: 24px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
